@@ -1,34 +1,42 @@
-# IV SERIE – Proyecto Académico (TypeScript)
+# 🌟 IV SERIE – Entorno de Desarrollo (Integración de Funcionalidades)
 
 **Universidad Mariano Gálvez de Guatemala – Campus Huehuetenango**  
-**Curso:** Aseguramiento de la Calidad de Software 2025
+**Curso:** Aseguramiento de la Calidad de Software 2025  
 
-Este repositorio contiene un **prototipo de solución de software** implementado en **TypeScript** con enfoque en **calidad** y **pruebas**. El objetivo es verificar la funcionalidad entre componentes y su compatibilidad con los de otros integrantes del equipo.
+Este repositorio en su rama **dev** contiene la **unión de todas las funcionalidades** del proyecto IV SERIE.  
+Aquí se integran las aportaciones de cada integrante, sus **interfaces**, **implementaciones**, **pruebas unitarias** y la **prueba de integración** final, verificando la compatibilidad y calidad de todos los componentes.
 
 ---
 
-## 🎯 Alcance del proyecto
+## 🎯 Objetivo del entorno de desarrollo
 
-- **Al menos una interfaz** y **su implementación** por integrante.
-- **Pruebas unitarias (≥ 3)** para validar el comportamiento de los componentes.
-- **Prueba de integración** que verifica la interacción entre componentes reales.
-- **Buenas prácticas**: estructura modular, tipado estricto, scripts de npm y `.gitignore`.
+- Reunir en un solo lugar todas las funcionalidades individuales desarrolladas por el equipo.
+- Garantizar que las **interfaces** y **servicios** de cada módulo funcionen correctamente entre sí.
+- Ejecutar las **pruebas unitarias** de cada componente y la **prueba de integración** general.
+- Servir de base para futuras mejoras y despliegues.
 
-> El dominio de ejemplo utiliza una **librería (biblioteca) de libros** con *Entidades*, *Interfaces* y *Servicios* para mantener el diseño claro y extensible.
+---
+
+## 🧩 Contenido
+
+- **Entidades**: modelos de dominio comunes a todo el proyecto (p. ej., `Libro`, `Autor`).
+- **Interfaces**: contratos estandarizados para repositorios y servicios.
+- **Servicios**: implementaciones reales y en memoria de cada módulo.
+- **Pruebas**: unitarias por componente y prueba de integración que comprueba el flujo completo.
 
 ---
 
 ## 📦 Requisitos
 
-- Node.js 18+
-- npm
-- (Incluye dependencias de desarrollo para TypeScript y Jest en `package.json`)
+- Node.js 18+  
+- npm  
+- (Incluye dependencias para TypeScript y Jest en `package.json`)
 
 ---
 
-## ▶️ Ejecución rápida
+## ▶️ Cómo usar este entorno
 
-```bash
-npm install
-npm test
-npm run build
+1. Clonar el repositorio (rama `dev`):
+   ```bash
+   git clone -b dev <URL-DE-TU-REPO>
+   cd biblioteca-ts
