@@ -1,6 +1,11 @@
-import { Autor } from '../Entities/Interfaces/AutorEntity';
+/**
+ * Autor Erick Alcon <ealconv@miumg.edu.gt>
+ */
 
-export class GestorAutoresServicio {
+import { Autor } from '../Entitites/AutorEntity';
+import { GestorAutores } from '../Entitites/Interfaces/GestorAutores.Interface';
+
+export class GestorAutoresServicio implements GestorAutores {
   private autores: Autor[] = [];
 
   agregarAutor(autor: Autor): void {

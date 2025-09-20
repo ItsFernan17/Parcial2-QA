@@ -1,3 +1,7 @@
+/**
+ * Fernando Rivas <frivasm@miumg.edu.gt>
+ */
+
 import { Libro } from '../Libro.Entity';
 
 export interface GestorLibros {

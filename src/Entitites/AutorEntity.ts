@@ -1,3 +1,7 @@
+/**
+ * Autor Erick Alcon <ealconv@miumg.edu.gt>
+ */
+
 export class Autor {
   constructor(
     public readonly id: number,

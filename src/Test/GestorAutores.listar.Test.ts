@@ -1,5 +1,9 @@
+/**
+ * Autor Erick Alcon <ealconv@miumg.edu.gt>
+ */
+
 import { GestorAutoresServicio } from '../Services/GestorAutores.Services';
-import { Autor } from '../Entities/Interfaces/AutorEntity';
+import { Autor } from '../Entitites/AutorEntity';
 
 describe('GestorAutoresServicio - listar', () => {
   it('lista todos los autores agregados', () => {
